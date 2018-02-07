@@ -4,3 +4,4 @@ FactoryBot.define do
    description   { FFaker::Lorem.sentence }
    user
  end
+end

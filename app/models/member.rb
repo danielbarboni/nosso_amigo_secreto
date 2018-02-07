@@ -1,4 +1,5 @@
 class Member < ApplicationRecord
+  belongs_to :campaign
   after_save :set_campaign_pending
   validates :name, :email, :campaign, presence: true
 
